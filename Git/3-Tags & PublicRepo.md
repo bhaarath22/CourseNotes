@@ -71,6 +71,7 @@
       ---
     
    *   **Attempting to Push Changes to a Cloned Public Repository**:
+     
     1.  Make a change in one of the files in the cloned repository (e.g., in `cli.ts` in VS Code source) and save.
     2.  Check status: `git status` (shows modified file).
     3.  Stage changes: **`git add <file_path>`** (e.g., `git add src/vs/cli.ts`).
