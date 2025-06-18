@@ -1,5 +1,5 @@
 
-## 📘 Table of Contents
+## 📘 Index
 
 1. [Git Project Creation and Workflow](#git-project-creation-and-workflow)
 2. [Remote Repositories (Collaboration)](#remote-repositories-collaboration)
