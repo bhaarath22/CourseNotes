@@ -2,7 +2,7 @@
 
 - [Tags](#tags)
 - [Working with Other People's Repositories](#working-with-other-peoples-repositories)
-- [Attempting to Push Changes to a Cloned Public Repository](#Attempting-to-Push-Changes-to-a-Cloned-Public-Repository)
+- [Attempting to Push Changes to a Cloned Public Repository](#attempting-to-push-changes-to-a-cloned-public-repository)
 
 ### Tags
 
