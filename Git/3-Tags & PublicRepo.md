@@ -1,3 +1,9 @@
+# Index
+
+- [Tags in Git](#tags-in-git)
+- [Working with Other People's Repositories](#working-with-other-peoples-repositories)
+- [Attempting to Push Changes to a Cloned Public Repository](#attempting-to-push-changes-to-a-cloned-public-repository)
+
 ### Tags
 
 *   **Purpose**: Tags are used to mark specific points in the repository's history as important. They are typically used to mark **release versions** of software (e.g., V1.0, V2.0).
