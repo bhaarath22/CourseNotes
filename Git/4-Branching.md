@@ -1,3 +1,8 @@
+# Index
+
+- [Branching](#branching)
+- [Merging Branches](#merging-branches)
+
 ### Branching
 
 *   **Core Concept**: Branching is a powerful Git feature that makes it one of the best version control systems.
