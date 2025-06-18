@@ -1,6 +1,6 @@
 # Index
 
-- [Tags in Git](#tags-in-git)
+- [Tags](#tags)
 - [Working with Other People's Repositories](#working-with-other-peoples-repositories)
 - [Attempting to Push Changes to a Cloned Public Repository](#attempting-to-push-changes-to-a-cloned-public-repository)
 
@@ -37,8 +37,8 @@
     *   **Verification on GitHub**: Go to your repository on GitHub, click on "Tags" to see the pushed tags. You can download the source code at any specific tag.
 ---  
 
-### Working with Other People's Repositories (Cloning and Exploring)
-
+### Working with Other People's Repositories  
+(Cloning and Exploring) 
 *   **Cloning for Exploration**: You can clone public repositories to explore their source code, commit history, and tags.
     *   **Example**: Cloning the **VS Code source code** from GitHub.
     *   Search for "vs code" on GitHub and find the official Microsoft repository.
