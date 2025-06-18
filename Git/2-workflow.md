@@ -1,3 +1,11 @@
+
+## 📘 Table of Contents
+
+1. [Git Project Creation and Workflow](#git-project-creation-and-workflow)
+2. [Remote Repositories (Collaboration)](#remote-repositories-collaboration)
+3. [Creating and Pushing to a Remote Repository (GitHub)](#creating-and-pushing-to-a-remote-repository-github)
+
+---
   ### Git Project Creation and Workflow
 
 *   **Git's Language Agnosticism**: Git doesn't care about the programming language; it tracks files and statements regardless of their content (e.g., Java, Python, JavaScript, or plain text).
