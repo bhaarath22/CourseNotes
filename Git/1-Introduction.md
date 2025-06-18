@@ -1,46 +1,13 @@
 ---
 
-## 📚 Index
+## 📚 Index  
 
 1. [Introduction to Git](#introduction-to-git)
-
-   * [Purpose of Git](#purpose-of-git)
-   * [Application-Agnostic](#application-agnostic)
-   * [Ease of Use](#ease-of-use)
-   * [Interaction Methods](#interaction-methods)
-
 2. [Understanding Version Control](#understanding-version-control)
-
-   * [Definition of Git](#definition-of-git)
-   * [Core Problem Git Solves](#core-problem-git-solves)
-   * [Version Control Defined](#version-control-defined)
-   * [Version Control System (VCS)](#version-control-system-vcs)
-
 3. [Types of Version Control Systems (VCS)](#types-of-version-control-systems-vcs)
-
-   * [Local Version Control Systems (LVCS)](#local-version-control-systems-lvcs)
-   * [Centralized Version Control Systems (CVCS)](#centralized-version-control-systems-cvcs)
-   * [Distributed Version Control Systems (DVCS)](#distributed-version-control-systems-dvcs)
-
 4. [History of Git](#history-of-git)
-
-   * [Open Source Context](#open-source-context)
-   * [BitKeeper Era (2002)](#bitkeeper-era-2002)
-   * [The Shift (2005)](#the-shift-2005)
-   * [Git’s Creation](#gits-creation)
-
 5. [Installing Git](#installing-git)
-
-   * [Why Command Line?](#why-command-line)
-   * [Verifying Git Installation](#verifying-git-installation)
-   * [Downloading Git](#downloading-git)
-   * [Git Setup Process (Windows Example)](#git-setup-process-windows-example)
-   * [Post-Installation Verification](#post-installation-verification)
-
 6. [Configuring Git Identity](#configuring-git-identity)
-
-   * [Checking Existing Configuration](#checking-existing-configuration)
-   * [Setting Your User Identity](#setting-your-user-identity)
 
 ---
 ### Introduction to Git
