@@ -2,7 +2,7 @@
 
 - [Tags](#tags)
 - [Working with Other People's Repositories](#working-with-other-peoples-repositories)
-- [Attempting to Push Changes to a Cloned Public Repository](#attempting-to-push-changes-to-a-cloned-public-repository)
+- [Attempting to Push Changes to a Cloned Public Repository](#Attempting-to-Push-Changes-to-a-Cloned-Public-Repository)
 
 ### Tags
 
@@ -70,7 +70,7 @@
       
       ---
     
-*   **Attempting to Push Changes to a Cloned Public Repository**:
+   *   **Attempting to Push Changes to a Cloned Public Repository**:
     1.  Make a change in one of the files in the cloned repository (e.g., in `cli.ts` in VS Code source) and save.
     2.  Check status: `git status` (shows modified file).
     3.  Stage changes: **`git add <file_path>`** (e.g., `git add src/vs/cli.ts`).
