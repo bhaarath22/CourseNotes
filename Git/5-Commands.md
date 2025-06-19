@@ -138,7 +138,86 @@
   git reflog
   git reset --hard <commit-hash>
   ```
+---  
+### **Basic `ls` Commands**
+| Command | Description |
+|---------|-------------|
+| `ls` | List files/folders in current directory |
+| `ls -l` | Long format (permissions, size, date) |
+| `ls -a` | Show **hidden files** (starts with `.`) |
+| `ls -lh` | Human-readable sizes (KB, MB) |
+| `ls -t` | Sort by modification time (newest first) |
+| `ls -R` | Recursive (show subfolder contents) |
+| `ls -1` | One file/folder per line |
+
 ---
+
+### **Git-Specific `ls` Usage**
+| Command | Description |
+|---------|-------------|
+| `ls .git/` | List Git's internal files (CAUTION: Don't modify these!) |
+| `ls --git-ignore` | Show files ignored by Git (requires modern `ls` versions) |
+| `git ls-files` | **Better alternative**: List all tracked files |
+
+---
+
+### **Combining `ls` with Git**
+1. **List only Git-tracked files:**
+   ```bash
+   ls $(git ls-files)
+   ```
+
+2. **List untracked files (not in Git):**
+   ```bash
+   ls --ignore=$(git ls-files | tr '\n' '|')
+   ```
+
+3. **List recently modified files (Git-aware):**
+   ```bash
+   ls -lt $(git ls-files)
+   ```
+
+---
+
+### **Colorized Output**
+| Command | Description |
+|---------|-------------|
+| `ls --color=auto` | Auto-colorize by file type |
+| `ls --color=always` | Force colors (for piping) |
+| `ls --group-directories-first` | Folders first |
+
+---
+
+### **Filtering Output**
+| Command | Description |
+|---------|-------------|
+| `ls *.js` | List only `.js` files |
+| `ls docs/` | List contents of `docs/` folder |
+| `ls -d */` | List only directories |
+
+---
+
+### **Pro Tips**
+1. **Alias for better `ls`:**  
+   Add to your `~/.bashrc` or `~/.zshrc`:
+   ```bash
+   alias ll='ls -alFh --color=auto --group-directories-first'
+   ```
+
+2. **Git + `ls` combo:**  
+   To see changed files:
+   ```bash
+   ls $(git diff --name-only)
+   ```
+
+3. **Count files:**  
+   ```bash
+   ls | wc -l  # Total files/folders
+   git ls-files | wc -l  # Tracked files
+   ```
+
+---
+
 
 ### **Step-by-Step Creating a folder (with Rebase)**
 #### **1. Navigate to Your Repo**
