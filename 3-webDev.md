@@ -179,7 +179,67 @@ Planning (ChatGPT/Notion) → Design (Figma AI) → Code (Copilot/Cursor)
 - **AI tools accelerate every phase**, from planning through monitoring, with rich integration points (Notion for docs, Figma for design/code, VS Code for dev, GitHub for version control and CI, AWS for scalable deployment).
 - **AI lowers development time by up to 60%**, while privacy-first alternatives ensure data control and compliance where required.
 
-This workflow is tailored for high-velocity development, robust scalability, and AI-first best practices—delivering real business value from ideation to ongoing operation.
+  ---
+
+
+### 🔧 **AI Tool Summary Table (with Free/Paid Tags)**
+
+| **Stage**                  | **Tool**                | **Function/Use Case**                                      | **Stack Support**        | **Free / Paid**         |
+|----------------------------|-------------------------|------------------------------------------------------------|--------------------------|--------------------------|
+| **Planning & Ideation**    | ChatGPT-4               | Ideation, user stories, MVP scoping                        | ✅ Python / ✅ MERN       | **Freemium / Paid**      |
+|                            | Viable                  | Market + competitor research                               | ✅ Both                  | **Paid**                 |
+|                            | Notion AI               | Meeting → PRD/roadmap                                     | ✅ Both                  | **Paid**                 |
+|                            | Claude 3                | Long-context reasoning, planning                           | ✅ Both                  | **Freemium / Paid**      |
+|                            | Perplexity              | Real-time research                                          | ✅ Both                  | **Free / Pro (optional)**|
+| **UI/UX & Branding**       | Figma AI Plugins        | Wireframing, mockups, auto-layout                          | ✅ Both                  | **Free + Paid plugins**  |
+|                            | Uizard                  | Text-to-design mockups                                     | ✅ Both                  | **Freemium / Paid**      |
+|                            | Khroma                  | Color palettes (AI-generated)                              | ✅ Both                  | **Free**                 |
+|                            | Looka                   | Logo/branding generator                                    | ✅ Both                  | **Paid**                 |
+|                            | DALL·E 3 / Firefly      | Concept/illustrative designs                               | ✅ Both                  | **Free Pro (via GPT+)**  |
+| **Frontend Development**   | GitHub Copilot          | React/Vue/JS/TS AI coding assistant                        | ✅ Python / ✅ MERN       | **Paid (Free trial)**    |
+|                            | V0.dev                  | Text → React component generator                           | ✅ MERN                  | **Free**                 |
+|                            | Anima                   | Figma to React export                                      | ✅ MERN                  | **Freemium / Paid**      |
+|                            | Codeium                 | Copilot alternative                                        | ✅ Python / ✅ MERN       | **Free**                 |
+|                            | Tabnine (offline)       | Privacy-first AI coding                                    | ✅ Python / ✅ MERN       | **Freemium / Paid**      |
+| **Backend Development**    | Cursor.sh               | Full AI IDE for API creation                               | ✅ Python / ✅ MERN       | **Freemium / Paid**      |
+|                            | Claude 3                | Generate backend logic                                     | ✅ Both                  | **Freemium / Paid**      |
+|                            | Mintlify Docs           | Generate API docs (OpenAPI, Swagger)                       | ✅ Both                  | **Free**                 |
+|                            | AWS CodeWhisperer       | Serverless + IaC + backend generation                      | ✅ Python                | **Free**                 |
+|                            | Cody by Sourcegraph     | Self-hosted AI coder                                       | ✅ Both                  | **Free (OSS)**           |
+| **Database Modeling**      | Prisma AI Assistant     | Schema + ORM generation (PostgreSQL, Mongo)                | ✅ Both                  | **Free**                 |
+|                            | ChatDB                  | NL ↔︎ SQL model translation                                 | ✅ Both                  | **Beta / Free**          |
+|                            | MongoDB Atlas AI        | Smart queries, optimization                                | ✅ MERN (MongoDB)         | **Paid Tier**            |
+|                            | Supabase AI             | Postgres schema modeling + API generation                  | ✅ Python                | **Free + Paid**          |
+| **Testing & QA**           | CodiumAI                | Unit + integration test generator (VS Code)                | ✅ Python / ✅ MERN       | **Free (1 project)**     |
+|                            | Postman AI              | API test generation                                        | ✅ Both                  | **Paid**                 |
+|                            | Lightrun                | Runtime debugging & insights                               | ✅ Python / ✅ MERN       | **Paid (Free tier)**     |
+| **Documentation**          | Mintlify                | Autogenerate & sync inline technical docs                  | ✅ Both                  | **Free**                 |
+|                            | DocuWriter.ai           | Generate onboarding/user-facing docs                       | ✅ Both                  | **Paid**                 |
+|                            | Notion AI               | Release notes, changelogs, specs                           | ✅ Both                  | **Paid**                 |
+|                            | LlamaIndex + Ollama     | Privacy-first doc assistant (LLM integration)              | ✅ Python                | **Free / Self-hosted**   |
+| **CI/CD & Deployment**     | AWS CodeWhisperer       | Generate IaC, serverless deploy pipelines                  | ✅ Python                | **Free**                 |
+|                            | GitHub Actions + Copilot| Build/deploy/test integration from repo                    | ✅ Both                  | **Free / Paid (Copilot)**|
+|                            | Datadog AI              | Deployment health, monitoring                              | ✅ Both                  | **Paid (Trial available)**|
+|                            | Kubiya AI               | AI DevOps assistant (chat-driven CI/CD)                    | ✅ Both                  | **Paid**                 |
+|                            | Railway (Alt.)          | Auto full-stack deploy                                     | ✅ Python / ✅ MERN       | **Freemium / Paid**      |
+| **Marketing Assets**       | Synthesia               | AI-generated video demos                                   | Any frontend             | **Paid**                 |
+|                            | Murf.ai                 | AI voiceovers/narration                                    | Any                      | **Paid**                 |
+|                            | Canva AI                | Branded graphics / social kits                             | ✅ Both                  | **Free / Paid**          |
+|                            | Jasper AI / Copy.ai     | SEO copy, social captions, explainer text                  | ✅ Both                  | **Paid**                 |
+| **Monitoring & Maintenance**| Sentry AI               | Error tracking with smart grouping                         | ✅ Python / ✅ MERN       | **Free / Paid**          |
+|                            | LogRocket AI            | Session heatmaps / user behavior analytics                 | ✅ MERN                  | **Paid (Trial)**         |
+|                            | Canny AI                | Summarize user feedback, roadmap suggestions               | ✅ Both                  | **Paid**                 |
+|                            | Prometheus + Grafana    | Open-source error/log monitoring                           | ✅ Both                  | **Free (Self-hosted)**    |
+
+### 📝 **Quick Filters**
+
+- ✅ **Python stack–friendly**: ChatGPT, Copilot, CodiumAI, Prisma AI, Mintlify, CodeWhisperer, Cursor, Sentry, etc.  
+- ✅ **MERN friendly**: Copilot, Prisma AI, Tabnine, Anima, V0.dev, MongoDB Atlas, LogRocket  
+- 🔒 **Privacy-first/self-hosted**: Tabnine, Cody (Sourcegraph), LlamaIndex, Prometheus + Grafana, Jenkins + Ollama  
+- 🧩 **Great integrations** with **Notion**, **VS Code**, **Figma**: Mintlify, Cursor, Anima, Copilot, Notion AI, CodiumAI
+
+
+This table provides a **Well-Structured AI-Oriented DevOps/DevWorkflow Reference**, ensuring your team builds fast, smart, and securely while maintaining full control over the stack and cost at every growth phase. ✅
 
 [1] https://www.cmarix.com/blog/how-to-build-ai-powered-web-app-with-mern-stack/  
 [2] https://www.addwebsolution.com/blog/ai-in-mern-stack-development  
